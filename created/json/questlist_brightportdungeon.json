@@ -1,0 +1,56 @@
+[
+    {
+        "id":"dd_hidden",
+        "name":"dio dungeon quest steps",
+        "stages":[
+            {
+                "progress":1,
+                "logText":"Map loop=active"
+            },
+            {
+                "progress":2,
+                "logText":"dungeon3 replace=active"
+            },
+            {
+                "progress":3,
+                "logText":"dungeon4 replace=active"
+            },
+            {
+                "progress":4,
+                "logText":"timetemple_replace=active"
+            },
+            {
+                "progress":5,
+                "logText":"library_replace=active"
+            },
+            {
+                "progress":6,
+                "logText":"throne_replace=active"
+            },
+            {
+                "progress":7,
+                "logText":"dungeon151_replace=active"
+            },
+            {
+                "progress":8,
+                "logText":"dungeon3replace=inactive"
+            },
+            {
+                "progress":9,
+                "logText":"dungeon4 replace=inactive"
+            },
+            {
+                "progress":10,
+                "logText":"library_replace=inactive"
+            },
+            {
+                "progress":11,
+                "logText":"stairs to temple=inactive"
+            },
+            {
+                "progress":12,
+                "logText":"stairs to temple=active"
+            }
+        ]
+    }
+]

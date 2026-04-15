@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="9" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="9" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="2">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="160" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="320"/>
  </tileset>
@@ -195,38 +195,45 @@
  <tileset firstgid="8513" name="map_kitchen_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_kitchen_1.png" width="512" height="256"/>
  </tileset>
- <layer id="14" name="Base" width="9" height="10">
+ <layer id="1" name="Base" width="9" height="10">
   <data encoding="base64" compression="zlib">
    eJzzVGBg8MWDY4A4DojjgTgWB46D4jwi1NzgxI2ziFATT4aaNzgwqWrwuRtfGIIwAMDXPa0=
   </data>
  </layer>
- <layer id="1" name="Ground" width="9" height="10">
+ <layer id="2" name="Ground" width="9" height="10">
   <data encoding="base64" compression="zlib">
    eJxjYBg6gEl4oF1APgAAEMEAFg==
   </data>
  </layer>
- <layer id="2" name="Objects" width="9" height="10">
+ <layer id="3" name="Objects" width="9" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYMAPipkgtKswAYVI4KACA8MhBexy//gh+CJQ/pICgg/CMFCvCMHofGQxNiCbCY+bkoHuFlPELQ8DakhqOHCYB3LbHyR3/hCAiLMTCJNkJgQbANLeE8g=
+   eJxjYMAPipkgtKswAYVI4KACA8MhBexyeYoQfBEof0kBwQdhGKhWhGB0PrIYG5DNhMdNyUB3iynilocBNSQ1HDjMA7ktB8mdPwQg4uwEwiSZCcEGAAWuD0Y=
   </data>
  </layer>
- <layer id="3" name="Above" width="9" height="10">
+ <layer id="4" name="Above" width="9" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYKAveMWPyv8M5X/ix1Q7nAAAvUEC/Q==
+   eJxjYKAviFJE5SdD+UmKmGqHEwAAYnwBgw==
   </data>
  </layer>
- <layer id="13" name="Top" width="9" height="10">
+ <layer id="5" name="Top" width="9" height="10">
   <data encoding="base64" compression="zlib">
    eJxjYCAOPBajvhp3YexsWthFTTXIbiUWAACaaQjX
   </data>
  </layer>
- <layer id="4" name="Walkable" width="9" height="10" visible="0">
+ <layer id="6" name="Walkable" width="9" height="10" visible="0">
   <data encoding="base64" compression="zlib">
    eJy7KMbAcHGQYXyAGHWkmkWsfbjMJcZPAKydNiU=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0"/>
- <objectgroup id="6" name="Spawn"/>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="7" name="Mapevents">
+  <object id="1" name="east" type="mapchange" x="256" y="192" width="32" height="96">
+   <properties>
+    <property name="map" value="brightport_dungeon134"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
 </map>
