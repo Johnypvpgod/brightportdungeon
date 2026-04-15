@@ -187,6 +187,10 @@
             {
                 "text":"I want to see the thing behind me open",
                 "nextPhraseID":"DELETE_replace2"
+            },
+            {
+                "text":"I want to loop around the stairs",
+                "nextPhraseID":"DELETE_replace3"
             }
         ]
     },
@@ -207,6 +211,32 @@
                 "rewardType":"questProgress",
                 "rewardID":"dd_hidden",
                 "value":4
+            }
+        ]
+    },
+    {
+        "id":"DELETE_replace3",
+        "replies":[
+            {
+                "text":"I actually dont want to loop anymore",
+                "nextPhraseID":"DELETE_replace4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"dd_hidden",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"DELETE_replace4",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"dd_hidden",
+                "value":1
             }
         ]
     }
