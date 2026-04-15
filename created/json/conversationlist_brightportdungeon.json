@@ -176,5 +176,38 @@
                 "value":12
             }
         ]
+    },
+    {
+        "id":"DELETE_replacetestboard",
+        "replies":[
+            {
+                "text":"I want to see the throne room chair move",
+                "nextPhraseID":"DELETE_replace1"
+            },
+            {
+                "text":"I want to see the thing behind me open",
+                "nextPhraseID":"DELETE_replace2"
+            }
+        ]
+    },
+    {
+        "id":"DELETE_replace1",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"dd_hidden",
+                "value":6
+            }
+        ]
+    },
+    {
+        "id":"DELETE_replace2",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"dd_hidden",
+                "value":4
+            }
+        ]
     }
 ]
