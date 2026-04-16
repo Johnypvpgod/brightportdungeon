@@ -231,6 +231,7 @@
     },
     {
         "id":"DELETE_replacetestboard",
+        "message":"Bloop",
         "replies":[
             {
                 "text":"I want to see the throne room chair move",
