@@ -233,6 +233,11 @@
     <property name="place" value="north"/>
    </properties>
   </object>
+  <object name="dd_flavortext_shaft" type="script" x="320" y="416" width="160" height="160">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>

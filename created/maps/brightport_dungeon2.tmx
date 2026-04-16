@@ -239,9 +239,9 @@
    eJy7pcDAcItEDAKk6qGmPk8lBoYqLNhLCbc+kJ5qJQasoBJNP7I+YkAlVC9MHymgkkx9MICs7zYJZqDrew3EWUC3ZOMII1z6YOEUqQTRD8Po5uDSh45h5pCqDz2+AHMPWjk=
   </data>
  </layer>
- <layer name="Walkable" width="14" height="13" visible="0">
+ <layer name="Walkable" width="14" height="13">
   <data encoding="base64" compression="zlib">
-   eJw7qcDAcHIUDwuMDkjRh8sMfOYQksOlnxi3UaoPAEU2lUU=
+   eJw7qcDAcHIUDwuMDEjVh80MQubgk8dnBjHuo1QfANV9lxc=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -255,6 +255,11 @@
    <properties>
     <property name="map" value="brightport_dungeon4"/>
     <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="dd_warm_air_flavortext_queststep" type="script" x="384" y="352" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>

@@ -2,6 +2,50 @@
     {
         "id":"poisonland_timewatcher",
         "name":"Timewatcher guard",
-        "iconID":"monsters_rltiles4:43"
+        "iconID":"monsters_rltiles4:43",
+        "monsterClass":"construct"
+    },
+    {
+        "id":"dd_dwarfminer",
+        "name":"Dwarf miner",
+        "iconID":"monsters_misc:4",
+        "phraseID":"dd_dwarfminer_selector"
+    },
+    {
+        "id":"dd_argordstugdwarf",
+        "name":"Argordstug",
+        "iconID":"monsters_misc:6",
+        "phraseID":"dd_argordstug"
+    },
+    {
+        "id":"dd_argamdihrdwarf",
+        "name":"Argamdihr",
+        "iconID":"monsters_misc:6",
+        "phraseID":"dd_argamdihr_selector"
+    },
+    {
+        "id":"dd_durandwarf",
+        "name":"Duran",
+        "iconID":"monsters_misc:7",
+        "phraseID":"dd_duran_selector"
+    },
+    {
+        "id":"dd_onyxgargoyle",
+        "name":"Onyx gargoyle",
+        "iconID":"monsters_johny:12",
+        "monsterClass":"construct"
+    },
+    {
+        "id":"dd_obsidiangargoyle",
+        "name":"Obsidian gargoyle",
+        "iconID":"monsters_johny:13",
+        "monsterClass":"construct"
+    },
+    {
+        "id":"dd_dwarf_gargoylefight",
+        "name":"Onyx gargoyle",
+        "iconID":"monsters_johny:12",
+        "unique":1,
+        "monsterClass":"construct"
     }
 ]

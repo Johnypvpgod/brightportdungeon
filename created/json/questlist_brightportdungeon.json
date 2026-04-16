@@ -2,6 +2,7 @@
     {
         "id":"dd_hidden",
         "name":"dio dungeon quest steps",
+        "showInLog":1,
         "stages":[
             {
                 "progress":1,
@@ -50,6 +51,63 @@
             {
                 "progress":12,
                 "logText":"stairs to temple=active"
+            },
+            {
+                "progress":13,
+                "logText":"bread withered flavor text"
+            },
+            {
+                "progress":14,
+                "logText":"kitchen flavor text"
+            },
+            {
+                "progress":15,
+                "logText":"Knowledge that food desintegrates."
+            },
+            {
+                "progress":16,
+                "logText":"Knowledge that weapons desintegrate."
+            },
+            {
+                "progress":17,
+                "logText":"descending the stairs."
+            },
+            {
+                "progress":18,
+                "logText":"air getting warmer text received"
+            },
+            {
+                "progress":19,
+                "logText":"cell unlocked"
+            },
+            {
+                "progress":20,
+                "logText":"book read"
+            },
+            {
+                "progress":21,
+                "logText":"dwarf battle scene=triggered"
+            },
+            {
+                "progress":22,
+                "logText":"dwarf dialog scene=triggered"
+            },
+            {
+                "progress":23,
+                "logText":"key taken"
+            },
+            {
+                "progress":24,
+                "logText":"Duran introduction"
+            },
+            {
+                "progress":25,
+                "logText":"Duran interaction complete",
+                "rewardExperience":5000
+            },
+            {
+                "progress":26,
+                "logText":"Duran's group respawned"
             }
         ]
     }

@@ -220,7 +220,7 @@
    eJxjYGBgeCzGQBIYVU9f9VsVKDcf3Qx0UCRJmfm0Ug8Ar0MP1A==
   </data>
  </layer>
- <layer name="Walkable" width="12" height="14">
+ <layer name="Walkable" width="12" height="14" visible="0">
   <data encoding="base64" compression="zlib">
    eJy7KMbAcBEPRgb41GHTN1zUExMG6Oqx6cWnhlT3kBJfxLiH1DinV/gDAAuPeAQ=
   </data>
@@ -241,6 +241,11 @@
    <properties>
     <property name="map" value="brightport_dungeon5"/>
     <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="dd_warm_air_flavortext_selector" type="script" x="160" y="320" width="64" height="32">
+   <properties>
+    <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>

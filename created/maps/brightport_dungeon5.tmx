@@ -218,9 +218,9 @@
    eJxjYBgFIPBYbKBdMPzAZgVMMQBw7QHN
   </data>
  </layer>
- <layer name="Walkable" width="12" height="13" visible="0">
+ <layer name="Walkable" width="12" height="13">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcJEIDALEqKOlenRAjLqBcCuyPLpbsOlFl8cFcIUDLv3o7iHGbELqcOnB5R90DAC35Fsk
+   eJy7KMbAcJEIDALEqKO1emRAiRpauhVZHt0t2PSiy+MC2MzEZj429cSaTUgdLj24/IOOAU/IXAs=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -234,6 +234,16 @@
    <properties>
     <property name="map" value="brightport_dungeon7"/>
     <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="dd_flavortext_bottom_air_selector" type="script" x="128" y="192" width="96" height="64">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="dd_flavortext_inscription" type="script" x="256" y="224" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>

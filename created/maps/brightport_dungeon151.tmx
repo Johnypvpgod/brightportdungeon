@@ -267,22 +267,22 @@
     <property name="place" value="stairs"/>
    </properties>
   </object>
-  <object name="dd_stairstotemple_replace_add" type="script" x="96" y="256" width="32" height="32">
+  <object name="dd_stairstotemple_selector_add" type="script" x="96" y="256" width="32" height="32">
    <properties>
     <property name="when" value="step"/>
    </properties>
   </object>
-  <object name="dd_stairstotemple_replace_remove" type="script" x="96" y="256" width="32" height="32">
+  <object name="dd_stairstotemple_replace_selector_remove" type="script" x="96" y="256" width="32" height="32">
    <properties>
     <property name="when" value="step"/>
    </properties>
   </object>
-  <object name="dd_stairstotemple_replace_remove" type="script" x="64" y="320" width="32" height="32">
+  <object name="dd_stairstotemple_replace_selector_remove" type="script" x="64" y="320" width="32" height="32">
    <properties>
     <property name="when" value="step"/>
    </properties>
   </object>
-  <object name="dd_stairstotemple_replace_add" type="script" x="64" y="320" width="32" height="32">
+  <object name="dd_stairstotemple_selector_add" type="script" x="64" y="320" width="32" height="32">
    <properties>
     <property name="when" value="step"/>
    </properties>

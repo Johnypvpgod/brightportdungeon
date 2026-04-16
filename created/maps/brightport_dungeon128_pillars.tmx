@@ -243,7 +243,7 @@
   <object name="north" type="mapchange" x="448" y="0" width="128" height="32">
    <properties>
     <property name="map" value="brightport_dungeon136"/>
-    <property name="place" value="north"/>
+    <property name="place" value="south"/>
    </properties>
   </object>
   <object name="east" type="mapchange" x="992" y="480" width="32" height="128">

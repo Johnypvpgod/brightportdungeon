@@ -1,0 +1,17 @@
+[
+    {
+        "id":"dd_prison_key",
+        "iconID":"items_misc:21",
+        "name":"Cell key",
+        "displaytype":"ordinary",
+        "description":"A cell key found in an underground ruin, deep beneath the poisoned land."
+    },
+    {
+        "id":"dd_pickaxe",
+        "iconID":"items_japozero:281",
+        "name":"Duran's pick",
+        "displaytype":"rare",
+        "category":"pole",
+        "description":"A pickaxe I received from Duran blueshield, a warrior of the mountains."
+    }
+]
