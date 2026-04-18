@@ -196,5 +196,34 @@
                 }
             }
         ]
+    },
+    {
+        "id":"dd_mothman",
+        "items":[
+            {
+                "itemID":"gem2",
+                "chance":"30",
+                "quantity":{
+                    "min":2,
+                    "max":4
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"80",
+                "quantity":{
+                    "min":13,
+                    "max":34
+                }
+            },
+            {
+                "itemID":"dd_mothsilk",
+                "chance":"5",
+                "quantity":{
+                    "min":0,
+                    "max":2
+                }
+            }
+        ]
     }
 ]

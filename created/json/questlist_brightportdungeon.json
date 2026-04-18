@@ -10,7 +10,7 @@
             },
             {
                 "progress":2,
-                "logText":"PLACEHOLDER"
+                "logText":"potion of the brave looted"
             },
             {
                 "progress":3,
@@ -30,11 +30,11 @@
             },
             {
                 "progress":7,
-                "logText":"DEPRECATED"
+                "logText":"Delodil stairs=1"
             },
             {
                 "progress":8,
-                "logText":"DEPRECATED"
+                "logText":"Delodil stairs=2"
             },
             {
                 "progress":9,
@@ -46,7 +46,7 @@
             },
             {
                 "progress":11,
-                "logText":"DEPRECATED"
+                "logText":"Can search item cabinets"
             },
             {
                 "progress":12,
@@ -108,32 +108,55 @@
             {
                 "progress":26,
                 "logText":"Duran's group respawned"
+            },
+            {
+                "progress":27,
+                "logText":"Kitchen cabinet interacted"
+            },
+            {
+                "progress":28,
+                "logText":"vile potion found"
             }
         ]
     },
     {
         "id":"dd_memories",
         "name":"Fragments of past",
-        "showInLog":1
+        "showInLog":1,
+        "stages":[
+            
+        ]
     },
     {
         "id":"dd_research",
         "name":"Slumbering labor",
-        "showInLog":1
+        "showInLog":1,
+        "stages":[
+            
+        ]
     },
     {
         "id":"dd_book",
         "name":"Ephemeral being",
-        "showInLog":1
+        "showInLog":1,
+        "stages":[
+            
+        ]
     },
     {
         "id":"dd_poisonlandcontinuation",
         "name":"Descent into madness",
-        "showInLog":1
+        "showInLog":1,
+        "stages":[
+            
+        ]
     },
     {
         "id":"dd_undergroundking",
         "name":"The underking",
-        "showInLog":1
+        "showInLog":1,
+        "stages":[
+            
+        ]
     }
 ]

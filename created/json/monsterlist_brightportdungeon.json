@@ -26,33 +26,33 @@
     {
         "id":"dd_onyxgargoyle",
         "name":"Onyx gargoyle",
-        "iconID":"monsters_johny:12",
+        "iconID":"monsters_johny:17",
         "monsterClass":"construct"
     },
     {
         "id":"dd_obsidiangargoyle",
         "name":"Obsidian gargoyle",
-        "iconID":"monsters_johny:13",
+        "iconID":"monsters_johny:18",
         "monsterClass":"construct"
     },
     {
         "id":"dd_dwarf_gargoylefight",
         "name":"Onyx gargoyle",
-        "iconID":"monsters_johny:12",
+        "iconID":"monsters_johny:17",
         "unique":1,
         "monsterClass":"construct"
     },
     {
         "id":"dd_livingarmor",
         "name":"Living armor",
-        "iconID":"monsters_newb_1:62",
+        "iconID":"monsters_ld1:78",
         "monsterClass":"construct",
         "droplistID":"dd_livingarmor"
     },
     {
         "id":"dd_livingarmor2",
         "name":"Living royal armor",
-        "iconID":"monsters_newb_1:63",
+        "iconID":"monsters_ldg:76",
         "monsterClass":"construct",
         "droplistID":"dd_livingroyalarmor"
     },
@@ -110,5 +110,38 @@
         "name":"Shadow visage",
         "iconID":"monsters_rltiles1:0",
         "monsterClass":"ghost"
+    },
+    {
+        "id":"dd_delodil",
+        "name":"Delodil",
+        "iconID":"monsters_johny:19",
+        "phraseID":"dd_delodil_selector"
+    },
+    {
+        "id":"dd_mothmen",
+        "name":"Mothman",
+        "iconID":"monsters_johny:14",
+        "monsterClass":"insect",
+        "movementAggressionType":"protectSpawn",
+        "droplistID":"dd_mothman"
+    },
+    {
+        "id":"dd_ghostgatheringfight",
+        "name":"Agressive shadow visage",
+        "iconID":"monsters_rltiles1:0"
+    },
+    {
+        "id":"dd_mothmanjuvenile",
+        "name":"Lesser mothman",
+        "iconID":"monsters_rltiles1:37",
+        "monsterClass":"insect",
+        "droplistID":"dd_mothman"
+    },
+    {
+        "id":"dd_mothmatriarch",
+        "name":"Moth matriarch",
+        "iconID":"monsters_newbedit:0",
+        "monsterClass":"insect",
+        "phraseID":"dd_mothmatriarch"
     }
 ]

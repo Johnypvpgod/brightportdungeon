@@ -118,5 +118,13 @@
         "displaytype":"rare",
         "category":"shld_mtl_li",
         "description":"The reflection on the shield displays moments from the world prior."
+    },
+    {
+        "id":"dd_mothsilk",
+        "iconID":"items_misc_3:93",
+        "name":"Unrefined moth silk",
+        "displaytype":"rare",
+        "category":"animal",
+        "description":"Flexible and tear resistant, the dream of many tailors."
     }
 ]

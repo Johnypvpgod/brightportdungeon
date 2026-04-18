@@ -1320,5 +1320,222 @@
                 "mapName":"brightport_dungeon147"
             }
         ]
+    },
+    {
+        "id":"dd_delodil_block",
+        "message":"It's far too dangerous to descend without preparation, %playername.",
+        "switchToNPC":"dd_delodil"
+    },
+    {
+        "id":"dd_delodil_block2",
+        "message":"We haven't prepared yet, %playername.",
+        "switchToNPC":"dd_delodil"
+    },
+    {
+        "id":"dd_delodil_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dd_delodil_entrance"
+            }
+        ]
+    },
+    {
+        "id":"dd_delodil_entrance",
+        "message":"placeholder"
+    },
+    {
+        "id":"dd_mothmatriarch",
+        "message":"You stand in front of the creature nestled deep in the room, it's appearance and sheer size frightens you deeply.",
+        "switchToNPC":"none"
+    },
+    {
+        "id":"dd_itemflavortext",
+        "message":"The shelves are filled with various items such as towels or baskets, something that seemingly wouldn't withstand the test of time.",
+        "replies":[
+            {
+                "text":"Not the last place you would find a potion. [Examine the shelves.]",
+                "nextPhraseID":"dd_itemflavortext0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"dd_hidden",
+                        "value":2,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"dd_hidden",
+                        "value":11
+                    }
+                ]
+            },
+            {
+                "text":"Baskets are not something i'd consider treasure.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"dd_itemflavortext1",
+        "message":"The shelves are filled with antique items, such as cutlery or plates.",
+        "replies":[
+            {
+                "text":"I must find a potion of bravery... [Examine the shelves.]",
+                "nextPhraseID":"dd_itemflavortext2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"dd_hidden",
+                        "value":11,
+                        "negate":false
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"dd_hidden",
+                        "value":27,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I have not stooped so low, as to loot cutlery.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"dd_hidden",
+                        "value":15,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"It is better to not touch anything around here.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"dd_hidden",
+                        "value":15
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"dd_itemflavortext2",
+        "message":"You examine the shelves with your eyes, careful not to touch anything. You move on to opening the boxes by holding your finger on the lock for it to rust off, then using the tip of a weapon to safely examine the contents inside. Unfortunately, there is no potion.",
+        "replies":[
+            {
+                "text":"It must be somewhere else in this place..",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"dd_potionofthebravetext",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dd_potionofthebravetext1"
+            }
+        ]
+    },
+    {
+        "id":"dd_potionofthebravetext1",
+        "message":"The shelves are filled with various items such as towels or baskets, something that seemingly wouldn't withstand the test of time.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"Not the last place you would find a potion. [Examine the shelves.]",
+                "nextPhraseID":"dd_potionofthebravetext2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"dd_hidden",
+                        "value":11
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"dd_hidden",
+                        "value":2,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Towels, really?",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"dd_potionofthebravetext2",
+        "message":"You examine the various shelves. The towels that were loosely placed leave space behind them, and there is a bottle.",
+        "replies":[
+            {
+                "text":"[Examine it.]",
+                "nextPhraseID":"dd_potionofthebravetext2_selector"
+            }
+        ]
+    },
+    {
+        "id":"dd_potionofthebrave3",
+        "message":"According to Thulem, the potion would have resisted decay. That is seemingly not the case, as once you take it and open the lid, a vile smell comes from inside.",
+        "replies":[
+            {
+                "text":"Ugh, dang it, that's not a potion.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"dd_potionofthebravetext2_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dd_potionofthebrave3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"dd_hidden",
+                        "value":28,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"dd_potionofthebrave4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"dd_hidden",
+                        "value":28
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"dd_potionofthebrave4",
+        "message":"According to Thulem, the potion would have resisted decay. You examine the bottle and take a whiff with the lid open. From the familiar smell of potions, this could be it.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"dd_hidden",
+                "value":28
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"potion_brave",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"dd_itemflavortext0",
+        "message":"After a bit of looking around, you only see empty bottles."
     }
 ]
