@@ -192,9 +192,6 @@
  <tileset firstgid="8385" name="map_table_3" tilewidth="32" tileheight="32" tilecount="140" columns="14">
   <image source="../drawable/map_table_3.png" width="448" height="320"/>
  </tileset>
- <tileset firstgid="8525" name="map_table_3" tilewidth="32" tileheight="32" tilecount="140" columns="14">
-  <image source="../../../../Source/andors-trail/AndorsTrail/res/drawable/map_table_3.png" width="448" height="320"/>
- </tileset>
  <layer id="1" name="Base" width="10" height="15">
   <data encoding="base64" compression="zlib">
    eJxjYGBguMFJGDMMcnWXxbCLX1BAxbjMe6OAinGpu69AnPvQ1WHDdxVQ1eEyC10dsebhMpMSdYxcxKkDAO7Ge94=

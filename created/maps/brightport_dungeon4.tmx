@@ -214,7 +214,7 @@
    eJxjYBic4LHYwNm9VWHg7CYGkBI2ABVCAsg=
   </data>
  </layer>
- <layer id="6" name="Walkable" width="12" height="10">
+ <layer id="6" name="Walkable" width="12" height="10" visible="0">
   <data encoding="base64" compression="zlib">
    eJy7KMbAcJEIDALEqMOmHhkQqx6bXnxqCJlLrHpyzCfkNkL+JyZ8yMUA0lFSHg==
   </data>
@@ -224,7 +224,7 @@
    eJxjYKA/uCiGicnRS4oaYtWT46bBDACO/xA/
   </data>
  </layer>
- <objectgroup id="8" name="Mapevents">
+ <objectgroup id="8" name="Mapevents" visible="0">
   <object id="1" name="east" type="mapchange" x="256" y="128" width="32" height="32">
    <properties>
     <property name="map" value="brightport_dungeon3"/>
@@ -238,7 +238,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Spawn"/>
- <objectgroup id="10" name="Keys"/>
+ <objectgroup id="9" name="Spawn" visible="0"/>
+ <objectgroup id="10" name="Keys" visible="0"/>
  <objectgroup id="11" name="Replace"/>
 </map>
