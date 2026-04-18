@@ -110,66 +110,6 @@
         ]
     },
     {
-        "id":"dd_dungeon3_walkable2_remove",
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"dd_hidden",
-                "value":2
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"dd_hidden",
-                "value":8
-            }
-        ]
-    },
-    {
-        "id":"dd_dungeon3_walkable2_add",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"dd_hidden",
-                "value":2
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"dd_hidden",
-                "value":8
-            }
-        ]
-    },
-    {
-        "id":"dd_dungeon4_walkable2_remove",
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"dd_hidden",
-                "value":3
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"dd_hidden",
-                "value":9
-            }
-        ]
-    },
-    {
-        "id":"dd_dungeon4_walkable2_add",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"dd_hidden",
-                "value":3
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"dd_hidden",
-                "value":8
-            }
-        ]
-    },
-    {
         "id":"dd_library_replace_add",
         "rewards":[
             {
@@ -205,12 +145,12 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"dd_hidden",
-                "value":12
+                "value":3
             },
             {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"dd_hidden",
-                "value":11
+                "value":9
             }
         ]
     },
@@ -220,12 +160,12 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"dd_hidden",
-                "value":11
+                "value":9
             },
             {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"dd_hidden",
-                "value":12
+                "value":3
             }
         ]
     },
@@ -303,7 +243,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"dd_hidden",
-                        "value":12,
+                        "value":3,
                         "negate":true
                     }
                 ]
@@ -320,7 +260,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"dd_hidden",
-                        "value":11,
+                        "value":9,
                         "negate":true
                     }
                 ]
@@ -707,11 +647,19 @@
     },
     {
         "id":"dd_sword_flavortext",
-        "message":"The crate before you holds many blades of antique craftsmanship that would surely be of high value to a collector.",
+        "message":"The crate before you holds many blades of antique craftsmanship, that would surely be of high value to a collector.",
         "replies":[
             {
-                "text":"[Take it.]",
-                "nextPhraseID":"dd_sword_flavortext1"
+                "text":"[Take one.]",
+                "nextPhraseID":"dd_sword_flavortext1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"dd_hidden",
+                        "value":16,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"I see no worth in touching them.",
@@ -743,7 +691,7 @@
         "message":"As you grab the hilt and try to brandish the sword, small spots of rust begin to form. Second by second, the entire blade is engulfed by rust.",
         "replies":[
             {
-                "text":"Damn it, swords too!",
+                "text":"Dang it, swords too!",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -763,6 +711,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"dd_hidden",
                 "value":16
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"dd_rustedblade",
+                "value":1
             }
         ]
     },
@@ -1077,7 +1030,7 @@
     },
     {
         "id":"dd_duran_afterwin2",
-        "message":"Before you stands Duran Bluebeard, cousin to the Western Bogling Kings, brother to Hogrim the Mountain King, shieldbearer of the great clans, and slayer of countless maonit and assorted giantkin.",
+        "message":"Before you stands Duran Shortbeard, cousin to the Western Bogling Kings, brother to Hogrim the Mountain King, shieldbearer of the great clans, and slayer of countless maonit and assorted giantkin.",
         "replies":[
             {
                 "text":"N",
@@ -1114,7 +1067,7 @@
     },
     {
         "id":"dd_duran1",
-        "message":"Me and the lads felt the hold\u2019s gotten too tight. We set out on this expedition to find a new holding for our clan.",
+        "message":"Me and the lads felt our home\u2019s gotten too tight. We set out on this expedition to find a new place to move in.",
         "replies":[
             {
                 "text":"N",
@@ -1124,7 +1077,7 @@
     },
     {
         "id":"dd_duran2",
-        "message":"With those creatures defeated for good, it is as good as ours. It shall be called Durandihr, \"of Duran\u2019s\" in our tongue. And you, lad, deserve a reward.",
+        "message":"With those creatures defeated for good, it is as good as ours. It shall be called Durandihr, \"of Duran\u2019s\" in our tongue. But you lad, deserve a reward.",
         "replies":[
             {
                 "text":"A reward's fine, but I feel like I have to clarify something to you.",
@@ -1144,7 +1097,7 @@
     },
     {
         "id":"dd_duran4",
-        "message":"Duran looks you up and down and lowers his head in thought while stroking his beard.",
+        "message":"Duran and the rest of his group get a worried expression on their faces - He looks you up and down and lowers his head in thought while stroking his beard.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -1155,7 +1108,7 @@
     },
     {
         "id":"dd_duran5",
-        "message":"Aye, we'll trust you, lad. I'm a warrior myself, and I can tell you have more experience than is seen at a glance.",
+        "message":"We'll trust you, lad. I'm a warrior myself, and I can tell you have more experience than is seen at a glance.",
         "switchToNPC":"dd_durandwarf",
         "replies":[
             {
@@ -1176,7 +1129,7 @@
     },
     {
         "id":"dd_duran7",
-        "message":"You, my friend, deserve a reward for your honesty and bravery. This is a pickaxe worthy of being held by Duran Bluebeard. Display it in your trophy room or the ale hall with pride!",
+        "message":"I'll give you a reward for your bravery. This is a pickaxe worthy of being held by Duran Shortbeard. Display it in your trophy room or the ale hall with pride!",
         "replies":[
             {
                 "text":"Aye!",
@@ -1296,7 +1249,7 @@
     },
     {
         "id":"dd_argamdihr_afterwin",
-        "message":"Giantling. Ye look out of place but it is sure good fortune that you're here."
+        "message":"Giantling. Ye look out of place but it was sure good fortune, that you were here."
     },
     {
         "id":"dd_argamdihr_afterwin0",
@@ -1314,7 +1267,7 @@
     },
     {
         "id":"dd_argordstug_afterwin",
-        "message":"We speak the same tongue, ye? I have only heard stories but have not seen the sun or your people who live outside the mountain."
+        "message":"We speak the same tongue, ye? I've only heard stories about ones like you before."
     },
     {
         "id":"dd_duran_remove",

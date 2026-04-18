@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="5" height="7" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="4">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="12" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="22" nextobjectid="12">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="160" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="320"/>
  </tileset>
@@ -189,80 +189,128 @@
  <tileset firstgid="8265" name="map_poisonland" tilewidth="32" tileheight="32" tilecount="120" columns="15">
   <image source="../drawable/map_poisonland.png" width="480" height="256"/>
  </tileset>
- <tileset firstgid="8385" name="map_chair_table_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_chair_table_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="8513" name="map_table_3" tilewidth="32" tileheight="32" tilecount="140" columns="14">
-  <image source="../drawable/map_table_3.png" width="448" height="320"/>
- </tileset>
- <layer id="1" name="Base" width="5" height="7">
+ <layer id="1" name="Base" width="12" height="14">
   <data encoding="base64" compression="zlib">
-   eJyLVmBg8EXCMUAcB8SxSDgLi1g8VOwGJwLnYREDYXSxaKiZyPZmAzEAhA0U2w==
+   eJxjYBgF1AY3OBkYYhUgWF0GN8amHhsmVT1MDy71yG6AiYHUwAA+N5OqHpt/SVEPAAIyG3c=
   </data>
  </layer>
- <layer id="2" name="Ground" width="5" height="7">
+ <layer id="2" name="Ground" width="12" height="14" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYCAMshSIUIQDOCoSrxYASTMA7Q==
+   eJyLU2BgiCUC3+BkYIhTgGBaqF+sQFv1lLgfxAZhYt2zBYhnAjEMYNOPrv6RGKo8MoDpx6UexEbGuNSjy6O7Cd2/6jIDH/4Ao5deLw==
   </data>
  </layer>
- <layer id="3" name="Objects" width="5" height="7">
+ <layer id="16" name="Ground0" width="12" height="14" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOXIUhNCM/QuwbH4Q2FUCIKSsyMHih6b0BVBeFJvYCqpdRGIeFQAAAOkMEig==
+   eJyLU2BgiCUC3+BkYIhTgGBaqF+sQFv1lLgfxAZhYt2zBYhnAjEMYNOPrv6RGKo8MoDpx6UexEbGuNSjy6O7Cd2/6jIDH/4Ao5deLw==
   </data>
  </layer>
- <layer id="4" name="Above" width="5" height="7">
+ <layer id="15" name="Ground1" width="12" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOHovhFjPkJ04dITF0AACHugUe
+   eJyLU2BgiCUC3+BkYIhTgGBaqF+sQFv1lLgfxAZhYt2zBYhnAjEMYNMPAsjqH4lhyqPrx6UexEbH2NQjy8EwTAzZ/TA5dRlMf2JTT8vwBwD/xl+1
   </data>
  </layer>
- <layer id="12" name="Above0" width="5" height="7" visible="0">
+ <layer id="3" name="Objects" width="12" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOHovhFjPkJ04dITF0AACHugUe
+   eJxjYEAFsQqoGAZ2KDAQBVYD1c0C4qVEqicX0NP87UB2FxD3AHEvEfZOBaopkmRgmA2k50D1ouvH5X5Q+M2EYpj+bgJ2blWA4A4g7kSyD9k9IIAuPx2IZyDZBwO45JfhcAcheRDYRMAPuNQDAEI5J2Q=
   </data>
  </layer>
- <layer id="5" name="Above1" width="5" height="7" visible="0">
+ <layer id="17" name="Objects0" width="12" height="14" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOHovhFjMVIE4dITF0AACJcQUj
+   eJxjYEAFsQqoGAZ2KDAQBVYD1c0C4qVEqicX0NP87UB2FxD3AHEvEfZOBaopkmRgmA2k50D1ouvH5X5Q+M2EYpj+bgJ2blWA4A4g7kSyD9k9IIAuPx2IZyDZBwO45JfhcAcheRDYRMAPuNQDAEI5J2Q=
   </data>
  </layer>
- <layer id="6" name="Top" width="5" height="7">
+ <layer id="14" name="Objects1" width="12" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYBg8AAAAjAAB
+   eJxjYEAFsQqoGAZ2KDAQBVYD1c0C4qVEqicX0NP87UB2FxD3AHEvEfZOBaopkmRgmA2k50D1EqsfFH4zoRimv5uAnq0KENyBpK4LiT0VygbJdyK5ZzoOc5HlZyC5ZxkO9YTkQWATHjl86gH8mSMi
   </data>
  </layer>
- <layer id="7" name="Walkable" width="5" height="7" visible="0">
+ <layer id="4" name="Above" width="12" height="14" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcJFEDALEiiGLo/PRMQDKcxos
+   eJxjYKAN2KRAI4PJBKS6h1L3PxZjYCiSZGAolkSIFUpCxIoksat/BMSJSGqSJCFiIIxLPTY5XO5BB8juweYmdHlk9zQhqccmjw3DAD416OoBjP0pWg==
   </data>
  </layer>
- <objectgroup id="8" name="Mapevents">
-  <object id="1" name="east" type="mapchange" x="128" y="128" width="32" height="32">
+ <layer id="18" name="Above0" width="12" height="14" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAN2KRAI4PJBKS6h1L3PxZjYCiSZGAolkSIFUpCxIoksat/BMSJSGqSJCFiIIxLPTY5XO5BB8juweYmdHlk9zQhqccmjw3DAD416OoBjP0pWg==
+  </data>
+ </layer>
+ <layer id="5" name="Above1" width="12" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAN2KRAI4PJBKS6h1L3PxZjYCiSZGAolsSUA4kXSWKqfwTEiZLY5YMUsKsHYWwgFIt6dFCIwy5s8iCcJIndTmzy2DAM4FODrh4AsgwmJg==
+  </data>
+ </layer>
+ <layer id="6" name="Top" width="12" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgeCzGQBIYVT/01G9VoK35tFIPAIs5DnQ=
+  </data>
+ </layer>
+ <layer id="20" name="Top0" width="12" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgeCzGQBIYVT/01G9VoK35tFIPAIs5DnQ=
+  </data>
+ </layer>
+ <layer id="21" name="Top1" width="12" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgeCzGQBIYVT/01G9VoK35tFIPAIs5DnQ=
+  </data>
+ </layer>
+ <layer id="7" name="Walkable" width="12" height="14" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJy7KMbAcJEIDALEqBuO6pEBseqx6cWnhlT34FNHyC5C/iHVv7QMfwCLA3nS
+  </data>
+ </layer>
+ <layer id="19" name="Walkable0" width="12" height="14" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJy7KMbAcJEIDALEqBuO6pEBseqx6cWnhlT34FNHyC5C/iHVv7QMfwCLA3nS
+  </data>
+ </layer>
+ <layer id="13" name="Walkable1" width="12" height="14" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJy7KMbAcJEIDALEqBuO6pEBseqx6cWln5C56HqJ8Qup7qHEv7QMfwC2U3nS
+  </data>
+ </layer>
+ <objectgroup id="9" name="Mapevents">
+  <object id="1" name="dd_stairs_under" type="script" x="224" y="224" width="32" height="32"/>
+  <object id="9" name="dd_stairs_under" type="script" x="320" y="352" width="32" height="32"/>
+  <object id="2" name="dd_stairs_over" type="script" x="192" y="224" width="32" height="32"/>
+  <object id="10" name="dd_stairs_over" type="script" x="320" y="384" width="32" height="32"/>
+  <object id="11" name="dd_stairs_over" type="script" x="320" y="32" width="32" height="32"/>
+  <object id="3" name="north" type="mapchange" x="320" y="0" width="32" height="32">
    <properties>
-    <property name="map" value="brightport_dungeon49"/>
-    <property name="place" value="west1"/>
+    <property name="map" value="stairs1"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object id="4" name="south" type="mapchange" x="320" y="416" width="32" height="32">
+   <properties>
+    <property name="map" value="stairs1"/>
+    <property name="place" value="north"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Spawn"/>
- <objectgroup id="10" name="Keys">
-  <object id="2" name="Object" type="key" x="96" y="64" width="32" height="32">
+ <objectgroup id="10" name="Spawn"/>
+ <objectgroup id="11" name="Keys"/>
+ <objectgroup id="12" name="Replace" visible="0">
+  <object id="8" name="dd_stairs_over" type="replace" x="256" y="224" width="96" height="160">
    <properties>
-    <property name="phrase" value="dd_takekey_dialog_selector"/>
-    <property name="requireId" value="andor"/>
-    <property name="requireNegation" value="true"/>
+    <property name="Above" value="Above0"/>
+    <property name="Ground" value="Ground0"/>
+    <property name="Objects" value="Objects0"/>
+    <property name="Walkable" value="Walkable0"/>
+    <property name="requireId" value="dd_hidden"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
+    <property name="requireValue" value="9"/>
    </properties>
   </object>
- </objectgroup>
- <objectgroup id="11" name="Replace">
-  <object id="3" name="replace_key" type="replace" x="96" y="64" width="32" height="32">
+  <object id="8" name="dd_stairs_under" type="replace" x="256" y="224" width="96" height="160">
    <properties>
     <property name="Above" value="Above1"/>
+    <property name="Ground" value="Ground1"/>
+    <property name="Objects" value="Objects1"/>
+    <property name="Walkable" value="Walkable1"/>
     <property name="requireId" value="dd_hidden"/>
-    <property name="requireNegation" value="false"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="23"/>
+    <property name="requireValue" value="8"/>
    </properties>
   </object>
  </objectgroup>

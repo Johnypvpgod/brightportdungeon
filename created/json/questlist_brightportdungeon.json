@@ -10,11 +10,11 @@
             },
             {
                 "progress":2,
-                "logText":"dungeon3 replace=active"
+                "logText":"PLACEHOLDER"
             },
             {
                 "progress":3,
-                "logText":"dungeon4 replace=active"
+                "logText":"stairs_replace=active"
             },
             {
                 "progress":4,
@@ -30,15 +30,15 @@
             },
             {
                 "progress":7,
-                "logText":"dungeon151_replace=active"
+                "logText":"DEPRECATED"
             },
             {
                 "progress":8,
-                "logText":"dungeon3replace=inactive"
+                "logText":"DEPRECATED"
             },
             {
                 "progress":9,
-                "logText":"dungeon4 replace=inactive"
+                "logText":"stairs_ replace=inactive"
             },
             {
                 "progress":10,
@@ -46,7 +46,7 @@
             },
             {
                 "progress":11,
-                "logText":"stairs to temple=inactive"
+                "logText":"DEPRECATED"
             },
             {
                 "progress":12,
@@ -110,5 +110,30 @@
                 "logText":"Duran's group respawned"
             }
         ]
+    },
+    {
+        "id":"dd_memories",
+        "name":"Fragments of past",
+        "showInLog":1
+    },
+    {
+        "id":"dd_research",
+        "name":"Slumbering labor",
+        "showInLog":1
+    },
+    {
+        "id":"dd_book",
+        "name":"Ephemeral being",
+        "showInLog":1
+    },
+    {
+        "id":"dd_poisonlandcontinuation",
+        "name":"Descent into madness",
+        "showInLog":1
+    },
+    {
+        "id":"dd_undergroundking",
+        "name":"The underking",
+        "showInLog":1
     }
 ]

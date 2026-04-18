@@ -13,5 +13,110 @@
         "displaytype":"rare",
         "category":"pole",
         "description":"A pickaxe I received from Duran blueshield, a warrior of the mountains."
+    },
+    {
+        "id":"dd_rustedarmor",
+        "iconID":"items_tometik2:40",
+        "name":"Rusted armor",
+        "displaytype":"ordinary",
+        "category":"hd_mtl_li",
+        "description":"Formerly animated, once taken apart the armor begins to rust and becomes useless."
+    },
+    {
+        "id":"dd_rustedblade",
+        "iconID":"items_misc_3:68",
+        "name":"Rusted blade",
+        "displaytype":"ordinary",
+        "category":"dagger",
+        "description":"Nothing can escape the flow of time.",
+        "equipEffect":{
+            "increaseUseItemCost":0,
+            "increaseAttackCost":4,
+            "increaseBlockChance":-10
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"dd_rustinfection",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"40"
+                }
+            ]
+        }
+    },
+    {
+        "id":"dd_royalgloves",
+        "iconID":"items_tometik2:75",
+        "name":"Ancient gloves",
+        "displaytype":"rare",
+        "category":"hnd_mtl_hv",
+        "description":"Untarnished, unblemished royal. An exquisite design is present on the back of the gloves."
+    },
+    {
+        "id":"dd_royalarmor",
+        "iconID":"items_tometik2:72",
+        "name":"Ancient plate",
+        "displaytype":"extraordinary",
+        "category":"bdy_hv",
+        "description":"Untarnished, unblemished, royal. Intact in honorable death, protecting its master."
+    },
+    {
+        "id":"dd_royalboots",
+        "iconID":"items_tometik2:74",
+        "name":"Ancient boots",
+        "displaytype":"rare",
+        "category":"feet_mtl_hv",
+        "description":"Untarnished, unblemished, royal. They adjust themselves to your size."
+    },
+    {
+        "id":"dd_royalhelm",
+        "iconID":"items_tometik2:14",
+        "name":"Ancient helm",
+        "displaytype":"ordinary",
+        "category":"hd_mtl_hv",
+        "description":"Untarnished, unblemished royal. Sturdy but hard to look around in.",
+        "equipEffect":{
+            "increaseAttackChance":-5
+        }
+    },
+    {
+        "id":"dd_royalshield",
+        "iconID":"items_tometik2:86",
+        "name":"Ancient shield",
+        "displaytype":"rare",
+        "category":"shld_mtl_hv",
+        "description":"Untarnished, unblemished royal. Its enchantment could repel a dragon's breath."
+    },
+    {
+        "id":"dd_silverstaff",
+        "iconID":"items_weapons_3:8",
+        "name":"Staff of symbiosis",
+        "displaytype":"extraordinary",
+        "category":"staff",
+        "description":"A mysterious artifact from the vault of the underground citadel."
+    },
+    {
+        "id":"dd_memory",
+        "iconID":"items_phoenix01:9",
+        "name":"Memory fragment",
+        "displaytype":"quest",
+        "description":"A fragmented shard of materialized memories."
+    },
+    {
+        "id":"dd_timecore",
+        "iconID":"items_necklaces_1:3",
+        "name":"Time core",
+        "displaytype":"rare",
+        "category":"neck",
+        "description":"The object is frozen in time, part of a larger, unknown magical mechanism."
+    },
+    {
+        "id":"dd_timeshield",
+        "iconID":"items_tometik2:32",
+        "name":"Time watcher shield",
+        "displaytype":"rare",
+        "category":"shld_mtl_li",
+        "description":"The reflection on the shield displays moments from the world prior."
     }
 ]

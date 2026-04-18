@@ -1,11 +1,5 @@
 [
     {
-        "id":"poisonland_timewatcher",
-        "name":"Timewatcher guard",
-        "iconID":"monsters_rltiles4:43",
-        "monsterClass":"construct"
-    },
-    {
         "id":"dd_dwarfminer",
         "name":"Dwarf miner",
         "iconID":"monsters_misc:4",
@@ -47,5 +41,74 @@
         "iconID":"monsters_johny:12",
         "unique":1,
         "monsterClass":"construct"
+    },
+    {
+        "id":"dd_livingarmor",
+        "name":"Living armor",
+        "iconID":"monsters_newb_1:62",
+        "monsterClass":"construct",
+        "droplistID":"dd_livingarmor"
+    },
+    {
+        "id":"dd_livingarmor2",
+        "name":"Living royal armor",
+        "iconID":"monsters_newb_1:63",
+        "monsterClass":"construct",
+        "droplistID":"dd_livingroyalarmor"
+    },
+    {
+        "id":"dd_timewatcher",
+        "name":"Time watcher",
+        "iconID":"monsters_rltiles4:43",
+        "monsterClass":"construct",
+        "droplistID":"dd_timewatcher"
+    },
+    {
+        "id":"dd_livingarmorcommander",
+        "name":"Living general armor",
+        "iconID":"monsters_newb_1:46",
+        "monsterClass":"construct",
+        "droplistID":"dd_livingarmorcommander"
+    },
+    {
+        "id":"dd_dragon1",
+        "name":"Endaroth",
+        "iconID":"monsters_tometik1:69",
+        "monsterClass":"undead"
+    },
+    {
+        "id":"dd_dragon2",
+        "name":"Azulmagoth",
+        "iconID":"monsters_tometik1:64",
+        "monsterClass":"undead",
+        "horizontalFlipChance":100
+    },
+    {
+        "id":"dd_awakeneddio",
+        "name":"Awakened Diomitian",
+        "iconID":"monsters_rltiles1:159",
+        "monsterClass":"undead"
+    },
+    {
+        "id":"dd_lorddio",
+        "name":"Lord Diomitian",
+        "iconID":"monsters_rltiles1:158",
+        "monsterClass":"undead"
+    },
+    {
+        "id":"dd_researcher",
+        "name":"Master Nerod",
+        "iconID":"monsters_liches:1"
+    },
+    {
+        "id":"dd_advisor",
+        "name":"Thulem",
+        "iconID":"monsters_ld1:73"
+    },
+    {
+        "id":"dd_ghostgathering",
+        "name":"Shadow visage",
+        "iconID":"monsters_rltiles1:0",
+        "monsterClass":"ghost"
     }
 ]

@@ -1,0 +1,36 @@
+[
+    {
+        "id":"dd_rustinfection",
+        "iconID":"actorconditions_japozero:31",
+        "name":"Rust infection",
+        "description":"An infection created by a rusted weapon.",
+        "category":"blood",
+        "roundEffect":{
+            "increaseCurrentHP":{
+                "min":-1,
+                "max":0
+            }
+        },
+        "abilityEffect":{
+            "increaseAttackChance":-5,
+            "increaseBlockChance":-25,
+            "increaseDamageResistance":-2
+        }
+    },
+    {
+        "id":"dd_livingarmor",
+        "iconID":"actorconditions_1:88",
+        "name":"Parasitic armor",
+        "description":"An armor that was once animated, once taken apart and worn it does not cease to be living.",
+        "roundEffect":{
+            "increaseCurrentHP":{
+                "min":-1,
+                "max":-2
+            }
+        },
+        "abilityEffect":{
+            "increaseMoveCost":3,
+            "increaseDamageResistance":-6
+        }
+    }
+]
