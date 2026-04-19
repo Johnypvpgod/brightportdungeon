@@ -210,7 +210,7 @@
  </layer>
  <layer id="3" name="Objects" width="14" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYCAfZCoyMGQpImgQsFREyDsD2S6KCBoGKoHsKiBuBOImRQYMEAwUC1FE0DDAJAyhJwLFJkHFj4oxMBwXw+/OGUD5F1jswSY2A8msHQTMRTaHWLX0ALBwGqzgsQB5ctQCf4SIU0eOO2FpilAcIKc9UBo+hiMdw8zBp4YUAABv5R37
+   eJxjYCAfZCoyMGQpImgQsFREyDsD2S6KCBoGKoHsKiBuBOImRQYMEAwUC1FE0DDAJAyhJwLFJkHFj4oxMBwXw+/OGUD5F1jswSY2A8msHQTMRTaHWLX0ALBwGqzgsQB5ctQCf4SIU0eOO2FpChQH+OxBTnugNHwMRzqGxSU+NaQAAAv6Hwk=
   </data>
  </layer>
  <layer id="4" name="Above" width="14" height="18">
@@ -225,20 +225,20 @@
  </layer>
  <layer id="6" name="Walkable" width="14" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcHGIYBggRx2xAJtZuMzApgab/fj0EfIPsX4mxo+kqifkblL1kes/arsTlxyx9lPbncSYQa08AgCRQn88
+   eJy7KMbAcHGIYBggRx2xAJtZuMzApgab/fj0EfIPsX4mxo+kqifkblL1kes/arsTlxyx9pOijhh3EuNXauURABbHgCM=
   </data>
  </layer>
- <layer id="12" name="Walkable0" width="14" height="18" visible="0">
+ <layer id="7" name="Walkable0" width="14" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcHGIYBggRx2xAJtZuMzApgab/fj0EfIPsX4mxo+kqifkblL1kes/arsTlxyx9lPbncSYQa08AgCRQn88
+   eJy7KMbAcHGIYBggRx2xAJtZuMzApgab/fj0EfIPsX4mxo+kqifkblL1kes/arsTlxyx9pOijhh3EuNXauURABbHgCM=
   </data>
  </layer>
- <layer id="7" name="Walkable1" width="14" height="18" visible="0">
+ <layer id="8" name="Walkable1" width="14" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcHGIYBighjpizSLXbHS1+Nj47CCkFps+XIBU9bj0k6uP0riiljtxyRFrP7XdSYwZ1EqfAI3Dh1s=
+   eJy7KMbAcHGIYBighjpizUJXi4uNrp5Yfbj0k2Ifuj5cgFT1uPSTq4/SuKKWO3HJEWs/KeqIcScxfqVWHgEAJXqDvw==
   </data>
  </layer>
- <objectgroup id="8" name="Mapevents">
+ <objectgroup id="9" name="Mapevents">
   <object id="1" name="north" type="mapchange" x="96" y="160" width="64" height="32">
    <properties>
     <property name="map" value="brightport_dungeon140"/>
@@ -283,7 +283,26 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Spawn"/>
- <objectgroup id="10" name="Keys"/>
- <objectgroup id="11" name="Replace"/>
+ <objectgroup id="10" name="Spawn"/>
+ <objectgroup id="11" name="Keys"/>
+ <objectgroup id="12" name="Replace">
+  <object id="9" name="replace_walkable" type="replace" x="64" y="128" width="320" height="128">
+   <properties>
+    <property name="Walkable" value="Walkable1"/>
+    <property name="requireId" value="dd_hidden"/>
+    <property name="requireNegation" value="false"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="5"/>
+   </properties>
+  </object>
+  <object id="10" name="revert_walkable" type="replace" x="64" y="128" width="320" height="128">
+   <properties>
+    <property name="Walkable" value="Walkable0"/>
+    <property name="requireId" value="dd_hidden"/>
+    <property name="requireNegation" value="false"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

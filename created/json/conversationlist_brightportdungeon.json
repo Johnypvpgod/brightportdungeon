@@ -563,7 +563,7 @@
     },
     {
         "id":"dd_cell_book1",
-        "message":"From past experience with organic material, you expected the hay to disintegrate on touch. But you are able to rummage through it without issue and find a book.",
+        "message":"From past experience with organic materials, you expect the hay to disintegrate on touch. But you are able to rummage through it without issue, and find a book.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -589,7 +589,7 @@
                 ]
             },
             {
-                "text":"Previously both organic and inorganic material were damaged by my touch. I should take some precaution and come back once I know what the conditions are.",
+                "text":"Previously both organic and inorganic materials were damaged by my touch. I should take some precaution and come back once I know what the conditions are.",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -603,6 +603,13 @@
                         "value":15
                     }
                 ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"dd_book",
+                "value":1
             }
         ]
     },
@@ -643,7 +650,19 @@
     {
         "id":"dd_cell_book_desintegrate",
         "message":"As you grab the book, it begins to disintegrate from where you touched it. The decay spreads from one end to the other. You watch as whatever may have been written inside is lost to carelessness.",
-        "switchToNPC":"none"
+        "switchToNPC":"none",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"dd_hidden",
+                "value":20
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"dd_book",
+                "value":50
+            }
+        ]
     },
     {
         "id":"dd_sword_flavortext",
@@ -968,7 +987,7 @@
     },
     {
         "id":"dd_takekey_dialog",
-        "message":"On the shelf of this small room sits a key, almost in reach if you get on the tip of your feet.",
+        "message":"On the shelf of this small room sits a key, almost in reach if you could get on the tip of your feet.",
         "replies":[
             {
                 "text":"N",
@@ -988,7 +1007,7 @@
     },
     {
         "id":"dd_takekey_dialog2",
-        "message":"You manage to get on the very tips of your toes, very dexterous of you indeed. Almost like those fabled ballerinas from Nor City that you have only seen in books.",
+        "message":"You manage to get on the very tip of your toes, very dexterous of you. Almost like those fabled ballerinas from Nor City, that you have seen in books.",
         "replies":[
             {
                 "text":"[Jump and grab it.]",
@@ -1323,12 +1342,12 @@
     },
     {
         "id":"dd_delodil_block",
-        "message":"It's far too dangerous to descend without preparation, %playername.",
+        "message":"It's far too dangerous to descend without preparation, $playername.",
         "switchToNPC":"dd_delodil"
     },
     {
         "id":"dd_delodil_block2",
-        "message":"We haven't prepared yet, %playername.",
+        "message":"We haven't prepared yet, $playername.",
         "switchToNPC":"dd_delodil"
     },
     {

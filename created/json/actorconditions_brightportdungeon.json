@@ -22,6 +22,7 @@
         "iconID":"actorconditions_1:88",
         "name":"Parasitic armor",
         "description":"An armor that was once animated, once taken apart and worn it does not cease to be living.",
+        "category":"physical",
         "roundEffect":{
             "increaseCurrentHP":{
                 "min":-1,

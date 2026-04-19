@@ -124,7 +124,10 @@
         "name":"Fragments of past",
         "showInLog":1,
         "stages":[
-            
+            {
+                "progress":1,
+                "logText":"stuff"
+            }
         ]
     },
     {
@@ -132,7 +135,10 @@
         "name":"Slumbering labor",
         "showInLog":1,
         "stages":[
-            
+            {
+                "progress":1,
+                "logText":"stuff"
+            }
         ]
     },
     {
@@ -140,7 +146,15 @@
         "name":"Ephemeral being",
         "showInLog":1,
         "stages":[
-            
+            {
+                "progress":1,
+                "logText":"In a prison cell within an ancient undrerground structure. I found a book."
+            },
+            {
+                "progress":5,
+                "logText":"I attempted to take and read it, but the book had turned to dust before my eyes.",
+                "finishesQuest":1
+            }
         ]
     },
     {
@@ -148,7 +162,10 @@
         "name":"Descent into madness",
         "showInLog":1,
         "stages":[
-            
+            {
+                "progress":1,
+                "logText":"stuff"
+            }
         ]
     },
     {
@@ -156,7 +173,10 @@
         "name":"The underking",
         "showInLog":1,
         "stages":[
-            
+            {
+                "progress":1,
+                "logText":"stuff"
+            }
         ]
     }
 ]
